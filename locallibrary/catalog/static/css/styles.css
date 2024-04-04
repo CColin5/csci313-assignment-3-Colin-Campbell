@@ -12,3 +12,14 @@
     padding: 0;
     margin: 0;
 }
+
+#carouselExampleAutoplaying {
+    width: 30%;
+    /* Adjust the width as needed */
+    height: 300px;
+    /* Adjust the height as needed */
+    margin: auto;
+    /* Centers the carousel if it's not full width */
+    margin-bottom: 400px;
+    /* Adjust the space below the carousel */
+}

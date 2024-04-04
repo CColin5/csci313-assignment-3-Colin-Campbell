@@ -38,7 +38,7 @@ class BookDetailView(generic.DetailView):
 
 class BookListView(generic.ListView):
     model = Book
-    paginate_by = 10
+    paginate_by = 1
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 
@@ -132,3 +132,11 @@ class AuthorDelete(PermissionRequiredMixin, DeleteView):
             )
 
 
+class AuthorListView(generic.ListView):
+    """Generic class-based list view for a list of authors."""
+    model = Author
+    paginate_by = 10
+
+class AuthorDetailView(generic.DetailView):
+    """Generic class-based detail view for an author."""
+    model = Author
