@@ -23,3 +23,13 @@
     margin-bottom: 400px;
     /* Adjust the space below the carousel */
 }
+
+.login_page {
+    width: 30%;
+
+    height: 300px;
+
+    margin: auto;
+
+    margin-bottom: 400px;
+}
